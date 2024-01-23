@@ -77,10 +77,42 @@ console.log(dataarry);
 console.log(arrayone[2]);
 console.log(yourarray[2][1]);
 
-// function
+// function/////////////////////////////////////////////////////////////////////////////
 
 function ourReusableFunction(){
 console.log("lol this is happening "); // creating a function 
 
 }
 ourReusableFunction(); //this is how we call a funtion 
+
+function ourfunctionwithargs({a,b}){
+
+console.log(a-b);
+
+} 
+
+ourfunctionwithargs(10-5);
+
+var myGlobal =10;
+ oopsGlobal =5;
+
+
+function fun2(){
+
+    var output = " ";
+
+    if(typeof myGlobal != "underfined"){
+        output += "myGlobal: " + myGlobal;
+    }
+    if(typeof oopsGlobal != "underfined"){
+        output += "oopsGlobal: " + oopsGlobal;
+    }
+
+    console.log(output);
+}
+
+fun2();
+fun2();
+
+////////////////////////////////////////////////////////////////////////////////////////////
+// start at 1hour
