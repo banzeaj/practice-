@@ -1,10 +1,10 @@
 let qty = 38;
 
-if (qty > 30 && qty % 5 === 4) {   
+    if (qty > 30 && qty % 5 === 4) {   
     console.log("swish");
- } else
-  {
-   console.log("swoosh");}// ans
+    } else
+    {
+    console.log("swoosh");}// ans
 
    ////////////////////////////////////////////////////////////
 
@@ -26,12 +26,12 @@ if (qty > 30 && qty % 5 === 4) {
 
     let number = 9;
 
- if (number < 4) {
-   console.log("ding"); }
-    else
-     if (number % 3 === 0) 
-     {
-      console.log("dong"); } 
+        if (number < 4) {
+            console.log("ding"); }
+            else
+            if (number % 3 === 0) 
+            {
+            console.log("dong"); } 
 
  ///////////////////////////////////////////////////
         
@@ -40,7 +40,7 @@ if (qty > 30 && qty % 5 === 4) {
 
         if (hasOk) {
            console.log("yeet");
-       } else
+         } else
          if (nonsense.length > 10) {
            console.log("yo");
          } else
@@ -96,3 +96,18 @@ if (s % 3 === 0 && s % 5 === 0) {
   console.log("neither");
 }
 /////////////////////////////////////////////////////////////////////
+
+let sentence = "roger that";
+
+if (sentence[sentence.length - 1] === "t") {
+  console.log("ends in t");
+} else {
+  console.log("does not end in t");
+}
+
+if (sentence.length <= 4) {
+  console.log("short");
+} else {
+  console.log("long");
+}
+
