@@ -22,7 +22,7 @@ let quantities2 = { blue: 3, brown: 1 };
 console.log(elementQuantities(quantities2)); // ['blue', 'blue', 'blue', 'brown']
 
 //////////////////////////////////////////////////////////////////////////////////
-console.log("-----------------------------2------------------------------------")
+console.log("-----------------------------------------------------------------")
 
 // Create a function `emailParse` that accepts an email address string as an argument. The function
 // should return an object containing `username` and `domain` as keys. See the examples.
@@ -43,7 +43,7 @@ console.log(emailParse("1337pr0graMmer@coldmail.edu"));
 // { username: '1337pr0graMmer', domain: 'coldmail.edu' }
 
 ///////////////////////////////////////////////////////////////////////////////////
-console.log("-------------------------------3-------------------------------------");
+console.log("--------------------------------------------------------------------");
 
 // Write a function `keyPair(obj1, obj2, key)` that accepts two objects and a key string as arguments.
 // The function should return an array containing the values of the given key in `obj1` and `obj2`.
@@ -63,24 +63,4 @@ let keyPair = function(obj1, obj2, key){
   console.log(keyPair(sport1, sport2, "team")); // [ true, false ]
 
   /////////////////////////////////////////////////////////////////////////////
-  console.log("---------------------------4--------------------------------");
-  // Write a function `maxObjectValue` that accepts an object as an argument. Write a function that
-// returns an array containing the key, value pair for the largest value within the object. You can
-// assume that all values are numbers and there are no ties.
-
-const maxObjectValue = function(obj){
-  let k = ''
-  let v = 0;
-  for(let key in obj){
-      if(v < obj[key] ) {
-          v= obj[key]
-          k = key
-      }
-  }
-
-  return [k, v]
-}
-
-
-console.log(maxObjectValue({ a: 5, b: 2, c: 6, d: 7, e: 4 })); // ['d', 7]
-console.log(maxObjectValue({ lychee: 11, rambutan: 13, papaya: 9 })); // ['rambutan', 13]
+  console.log("-----------------------------------------------------------");
